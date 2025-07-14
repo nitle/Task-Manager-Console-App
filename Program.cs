@@ -74,7 +74,7 @@ class Program
                         int taskNumber = Convert.ToInt32(input);
                         if (taskNumber >= 1 && taskNumber <= myList.Count)
                         {
-                            Console.WriteLine($"❌ Deleted: \"{myList[taskNumber - 1]}\"\n");
+                            Console.WriteLine($"Deleted: \"{myList[taskNumber - 1]}\"\n");
                             myList.RemoveAt(taskNumber - 1);
                             SaveTasks(myList); 
                         }
